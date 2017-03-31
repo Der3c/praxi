@@ -1,5 +1,5 @@
 
 .image {
-  align-items: center;
-  justify-content: center;
+  display: inline-block;
+  position: relative;
 }
