@@ -1,1 +1,20 @@
+body {
+  background: white;
+}
 
+.header {
+  position: relative;
+  height: 60px;
+  width: 100%;
+  margin-top: 0px;
+}
+
+.header li {
+  display: block;
+  float: right;
+  vertical-align: middle;
+  margin-left: 10px;
+  font-family: Arial, sans-serif;
+  opacity: 0.55;
+  font-size: 13px;
+}
