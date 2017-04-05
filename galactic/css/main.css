@@ -9,3 +9,12 @@
 .info{
   background-color: lightgrey;
 }
+
+.col-md-6 img {
+  width: 100%;
+  height: auto;
+}
+
+body {
+  text-align: center;
+}
