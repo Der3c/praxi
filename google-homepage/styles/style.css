@@ -18,3 +18,41 @@ body {
   opacity: 0.55;
   font-size: 13px;
 }
+
+.logo {
+  text-align: center;
+  padding-top: 90px;
+  padding-bottom: 10px;
+}
+
+.logo img {
+  max-width: 40%;
+  height: auto;
+}
+
+.search form{
+  text-align: center;
+  top: 50%;
+  transform: translate(0, 50%);
+}
+
+.search input {
+  width: 45%;
+  height: 40px;
+}
+
+footer {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  background-color: #e3e3e3;
+  display: inline-block;
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+}
+
+  footer ul li {
+    display: inline;
+    padding: 2px 15px;
+  }
