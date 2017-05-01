@@ -4,6 +4,6 @@ import { render } from 'react-dom';
 
 import App from '../imports/ui/App.jsx';
 
-Metero.startup(() => {
-  render.(<App />, document.getElementById('render-target'))
-}); 
+Meteor.startup(() => {
+  render(<App />, document.getElementById('render-target'));
+});
