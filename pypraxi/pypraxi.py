@@ -1,6 +1,10 @@
-#This would be how to make a comment in python
-print ("Hello Derek")  #Look no semicolon!
-#run from terminal by ../python filename.py
-#variables are like this:
-message = "Hello Derek"
+
+message = "Hello World"
 print(message)
+
+#This is a comment 
+first_name = "derek"
+last_name = "blaylock"
+full_name = first_name + " " + last_name
+print(full_name)
+print("Hello, " + full_name.title() + "!")
