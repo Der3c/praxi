@@ -17,3 +17,17 @@ print(bicycles)
 #This will insert at a speicif spot
 bicycles.insert(2, 'Scott')
 print(bicycles)
+
+#This will delete a specified in a list
+del bicycles[4]
+print bicycles
+
+#pop() removes an item from a list but allows you to work with it. Add position pop(3) to remove specific item
+pop_bicycles = bicycles.pop()
+print pop_bicycles
+
+#can remove an item by value .remove("name")
+bicycles.append('Surly')
+print bicycles
+bicycles.remove('Scott')
+
