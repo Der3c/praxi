@@ -31,3 +31,7 @@ bicycles.append('Surly')
 print bicycles
 bicycles.remove('Scott')
 
+#Starts a new variable and interates through a list taking the action specified
+for bikes in bicycles:
+	print(bikes.title())
+
