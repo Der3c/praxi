@@ -28,4 +28,38 @@ print(reduce)
 list_comp = [value**2 for value in range(1,11)]
 print(list_comp)
 
-#start on page 65	
+
+#summing the first 1MM numbers
+mil = list(range(1,1000001))
+print min(mil)
+print max(mil)
+print sum(mil)
+
+#prints odd numbers to 20
+for odd in range(1,21,2):
+	print(odd)
+
+#prints multiples of 3
+for threes in range(3,30,3):
+	print(threes)
+
+#a list of the cube of the first 10 numbers
+cubes_list = [value**2 for value in range(1,11)]
+print(cubes_list)	
+
+#How to slice a list - Without an index python will start at the beginning or end respectively 
+bicycles = ['trek', 'cannondale', 'specialized', 'fuji', 'Surly']
+print(bicycles[0:2])
+
+#Copy a list by
+bikes = bicycles[:]
+print(bikes)
+
+#tuples are immutable list - () instead of []
+Rides = ('Rando', 'Crit')
+print(Rides)
+for ride in Rides:
+	print(ride)
+Rides = ('Enduro', 'Brevet', 'Rando')
+print(Rides)	
+
